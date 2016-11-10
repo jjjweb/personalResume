@@ -1,0 +1,427 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>前端网（W3cfuns）</title>
+	<link rel="icon" href="images/ti.ico"/>
+	<link rel="stylesheet" href="css/web.css">
+</head>
+<body>
+	<!-- top -->
+	<header id="top"></header>
+	<!-- nav -->
+	<nav id="nav">
+		<div class="nav-left">
+			<h3 class="title">笔记分类</h3>
+			<div class="list">
+				<ul class="details">
+					<!--<li>HTML/CSS</li>
+						<li>JavaScript</li>
+						<li>Node.js</li>
+						<li>手机移动</li>
+						<li>前端安全</li>
+						<li>性能优化</li>
+						<li>类库框架</li>
+						<li>开发调试</li>
+						<li>浏览器</li>
+						<li>面试经验</li>-->
+				</ul>
+				<ul class="details-1">
+					<!--<li>web前端</li>
+						<li>web前端开发</li>-->
+				</ul>
+			</div>
+		</div>
+		<div class="nav-right">
+			<div class="slider">
+				<div class="img">
+					<ul class="imgs">
+					</ul>
+				</div>
+				<ul class="dotarea">
+				</ul>
+				<!-- <div class="slider-pics">
+					<img src="images/p-1_03.jpg" alt="" class="slider-left">
+					<img src="images/p-1_05.jpg" alt="" class="slider-right">
+				</div> -->
+			</div>
+			<div class="feedroll">
+				<img src="images/w_03.jpg" alt="" class="fl">
+					<span>前端动态：
+						<ul class="details">
+							<li>
+								<a>大大叔学</a>拜读了
+								<a>wangjian</a>
+								的笔记《
+								<a>2016前端面试题摘取</a>》
+								<i>4分钟前</i>
+							</li>
+							<li>
+								<a>大叔学</a>拜读了
+								<a>wangjian</a>
+								的笔记《
+								<a>2015前端面试题摘取</a>》
+								<i>4分钟前</i>
+							</li>
+							<li>
+								<a>中叔学</a>拜读了
+								<a>wangjian</a>
+								的笔记《
+								<a>2014前端面试题摘取</a>》
+								<i>4分钟前</i>
+							</li>
+							<li>
+								<a>小叔学</a>拜读了
+								<a>wangjian</a>
+								的笔记《
+								<a>2013前端面试题摘取</a>》
+								<i>4分钟前</i>
+							</li>
+						</ul>
+					</span>
+				<!-- <span>前端动态：<a>大叔学</a>拜读了<a>wangjian</a>的笔记《<a>2016前端面试题摘取</a>》<i>4分钟前</i></span>
+				<span>前端动态：<a>大叔学</a>拜读了<a>wangjian</a>的笔记《<a>2016前端面试题摘取</a>》<i>4分钟前</i></span> -->
+				<div class="fr">
+					<img src="images/p-1_11.jpg" alt="">
+					<img src="images/p-1_12.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- main -->
+	<section id="main">
+		<!-- left -->
+		<div class="main-left">
+			<h3 class="title">最新笔记</h3>
+			<ul class="new-notes new-notes-1">
+				<!--<li><a>1</a>图片翻转动画</li>-->
+				<!--<li><a>2</a>初始JavaScript的对象属性类型</li>-->
+				<!--<li><a>3</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>4</a>一个小需求引起的无缝轮播组件</li>-->
+				<!--<li><a>5</a>每天一点javascript系列&#45;&#45;数据类型</li>-->
+				<!--<li><a>6</a>初始JavaScript的对象属性类型</li>-->
+				<!--<li><a>7</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>8</a>一个小需求引起的无缝轮播组件</li>-->
+				<!--<li><a>9</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>10</a>一个小需求引起的无缝轮播组件</li>-->
+				<!--<li><a>11</a>图片翻转动画</li>-->
+				<!--<li><a>12</a>每天 一点javaScript系列&#45;&#45;script标签</li>-->
+				<!--<li><a>13</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>14</a>一个小需求引起的无缝轮播组件</li>-->
+				<!--<li><a>15</a>图片翻转动画</li>-->
+				<!--<li><a>16</a>每天 一点javaScript系列&#45;&#45;script标签</li>-->
+				<!--<li><a>17</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>18</a>一个小需求引起的无缝轮播组件</li>-->
+				<!--<li><a>19</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>20</a>一个小需求引起的无缝轮播组件</li>-->
+			</ul>
+			<img src="images/p-1_33.jpg" alt="">
+			<h3 class="title">值得收藏</h3>
+			<ul class="new-notes new-notes-2">
+				<!--<li><a>1</a>图片翻转动画效果的一些技能组件</li>-->
+				<!--<li><a>2</a>初始JavaScript的对象属性类型</li>-->
+				<!--<li><a>3</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>4</a>一个小需求引起的无缝轮播组件</li>-->
+				<!--<li><a>5</a>每天 一点javaScript系列&#45;&#45;script标签</li>-->
+				<!--<li><a>6</a>初始JavaScript的对象属性类型</li>-->
+				<!--<li><a>7</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>8</a>一个小需求引起的无缝轮播组件</li>-->
+				<!--<li><a>9</a>每天 一点javaScript系列&#45;&#45;script标签</li>-->
+				<!--<li><a>10</a>初始JavaScript的对象属性类型</li>-->
+				<!--<li><a>11</a>每天 一点javaScript系列&#45;&#45;script标签</li>-->
+				<!--<li><a>12</a>初始JavaScript的对象属性类型</li>-->
+				<!--<li><a>13</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>14</a>一个小需求引起的无缝轮播组件</li>-->
+				<!--<li><a>15</a>图片翻转动画</li>-->
+				<!--<li><a>16</a>初始JavaScript的对象属性类型</li>-->
+				<!--<li><a>17</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>18</a>每天 一点javaScript系列&#45;&#45;script标签</li>-->
+				<!--<li><a>19</a>坑码记录 - - 不断更新</li>-->
+				<!--<li><a>20</a>一个小需求引起的无缝轮播组件</li>-->
+			</ul>
+		</div>
+		<!-- middle -->
+		<div class="main-middle">
+			<h3 class="title">推荐笔记</h3>
+			<div class="recommend-notes">
+				<!--<div class="second">-->
+					<!--<img src="images/person.gif" alt="">-->
+					<!--<div class="first1">-->
+						<!--<a href="#" class="first1-name">tianxiaofeng747</a>-->
+						<!--<a href="#" class="first1-detail">三年前端被撸是怎样的体验（三）</a>-->
+						<!--<ul>-->
+							<!--<li>浏览：476</li>-->
+							<!--<li>回复：4</li>-->
+							<!--<li class="fenlei">分类：面试经验</li>-->
+						<!--</ul>-->
+					<!--</div>-->
+					<!--<div class="second2">-->
+						<!--<p>接上一篇三年前端被撸是怎样的体验（二）文字有点长，请准备好西瓜，瓜子，耐心看。。。。接下来几天，就是无休止的找工作了。首先让同事帮忙自己推荐，看看有没有熟人的单位招人。还有，就是拉 ...</p>-->
+					<!--</div>-->
+				<!--</div>-->
+
+				<!--<div class="second">-->
+					<!--<img src="images/person.gif" alt="">-->
+					<!--<div class="first1">-->
+					<!--<a href="#" class="first1-name">tianxiaofeng747</a>-->
+					<!--<a href="#" class="first1-detail">三年前端被撸是怎样的体验（三）</a>-->
+					<!--<ul>-->
+					<!--<li>浏览：476</li>-->
+					<!--<li>回复：4</li>-->
+					<!--<li class="fenlei">分类：面试经验</li>-->
+					<!--</ul>-->
+					<!--</div>-->
+					<!--<div class="second2">-->
+					<!--<p>接上一篇三年前端被撸是怎样的体验（二）文字有点长，请准备好西瓜，瓜子，耐心看。。。。接下来几天，就是无休止的找工作了。首先让同事帮忙自己推荐，看看有没有熟人的单位招人。还有，就是拉 ...</p>-->
+					<!--</div>-->
+				<!--</div>-->
+
+				<!--<div class="second">-->
+				<!--<img src="images/person.gif" alt="">-->
+				<!--<div class="first1">-->
+				<!--<a href="#" class="first1-name">tianxiaofeng747</a>-->
+				<!--<a href="#" class="first1-detail">三年前端被撸是怎样的体验（三）</a>-->
+				<!--<ul>-->
+				<!--<li>浏览：476</li>-->
+				<!--<li>回复：4</li>-->
+				<!--<li class="fenlei">分类：面试经验</li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="second2">-->
+				<!--<p>接上一篇三年前端被撸是怎样的体验（二）文字有点长，请准备好西瓜，瓜子，耐心看。。。。接下来几天，就是无休止的找工作了。首先让同事帮忙自己推荐，看看有没有熟人的单位招人。还有，就是拉 ...</p>-->
+				<!--</div>-->
+				<!--</div>-->
+
+				<!--<div class="second">-->
+				<!--<img src="images/person.gif" alt="">-->
+				<!--<div class="first1">-->
+				<!--<a href="#" class="first1-name">tianxiaofeng747</a>-->
+				<!--<a href="#" class="first1-detail">三年前端被撸是怎样的体验（三）</a>-->
+				<!--<ul>-->
+				<!--<li>浏览：476</li>-->
+				<!--<li>回复：4</li>-->
+				<!--<li class="fenlei">分类：面试经验</li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="second2">-->
+				<!--<p>接上一篇三年前端被撸是怎样的体验（二）文字有点长，请准备好西瓜，瓜子，耐心看。。。。接下来几天，就是无休止的找工作了。首先让同事帮忙自己推荐，看看有没有熟人的单位招人。还有，就是拉 ...</p>-->
+				<!--</div>-->
+				<!--</div>-->
+
+				<!--<div class="second">-->
+				<!--<img src="images/person.gif" alt="">-->
+				<!--<div class="first1">-->
+				<!--<a href="#" class="first1-name">tianxiaofeng747</a>-->
+				<!--<a href="#" class="first1-detail">三年前端被撸是怎样的体验（三）</a>-->
+				<!--<ul>-->
+				<!--<li>浏览：476</li>-->
+				<!--<li>回复：4</li>-->
+				<!--<li class="fenlei">分类：面试经验</li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="second2">-->
+				<!--<p>接上一篇三年前端被撸是怎样的体验（二）文字有点长，请准备好西瓜，瓜子，耐心看。。。。接下来几天，就是无休止的找工作了。首先让同事帮忙自己推荐，看看有没有熟人的单位招人。还有，就是拉 ...</p>-->
+				<!--</div>-->
+				<!--</div>-->
+
+				<!--<div class="second">-->
+				<!--<img src="images/person.gif" alt="">-->
+				<!--<div class="first1">-->
+				<!--<a href="#" class="first1-name">tianxiaofeng747</a>-->
+				<!--<a href="#" class="first1-detail">三年前端被撸是怎样的体验（三）</a>-->
+				<!--<ul>-->
+				<!--<li>浏览：476</li>-->
+				<!--<li>回复：4</li>-->
+				<!--<li class="fenlei">分类：面试经验</li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="second2">-->
+				<!--<p>接上一篇三年前端被撸是怎样的体验（二）文字有点长，请准备好西瓜，瓜子，耐心看。。。。接下来几天，就是无休止的找工作了。首先让同事帮忙自己推荐，看看有没有熟人的单位招人。还有，就是拉 ...</p>-->
+				<!--</div>-->
+				<!--</div>-->
+
+				<!--<div class="second">-->
+				<!--<img src="images/person.gif" alt="">-->
+				<!--<div class="first1">-->
+				<!--<a href="#" class="first1-name">tianxiaofeng747</a>-->
+				<!--<a href="#" class="first1-detail">三年前端被撸是怎样的体验（三）</a>-->
+				<!--<ul>-->
+				<!--<li>浏览：476</li>-->
+				<!--<li>回复：4</li>-->
+				<!--<li class="fenlei">分类：面试经验</li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="second2">-->
+				<!--<p>接上一篇三年前端被撸是怎样的体验（二）文字有点长，请准备好西瓜，瓜子，耐心看。。。。接下来几天，就是无休止的找工作了。首先让同事帮忙自己推荐，看看有没有熟人的单位招人。还有，就是拉 ...</p>-->
+				<!--</div>-->
+				<!--</div>-->
+
+				<!--<div class="second">-->
+				<!--<img src="images/person.gif" alt="">-->
+				<!--<div class="first1">-->
+				<!--<a href="#" class="first1-name">tianxiaofeng747</a>-->
+				<!--<a href="#" class="first1-detail">三年前端被撸是怎样的体验（三）</a>-->
+				<!--<ul>-->
+				<!--<li>浏览：476</li>-->
+				<!--<li>回复：4</li>-->
+				<!--<li class="fenlei">分类：面试经验</li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="second2">-->
+				<!--<p>接上一篇三年前端被撸是怎样的体验（二）文字有点长，请准备好西瓜，瓜子，耐心看。。。。接下来几天，就是无休止的找工作了。首先让同事帮忙自己推荐，看看有没有熟人的单位招人。还有，就是拉 ...</p>-->
+				<!--</div>-->
+				<!--</div>-->
+			</div>
+		</div>
+		<!-- right -->
+		<div class="main-right">
+			<!-- 工具库 -->
+			<h3 class="title">工具库</h3>
+			<div class="tool">
+				<ul class="fouth">
+					<li>
+						<a href="#">
+							<img src="images/p-1_17.jpg" alt="">
+						</a>
+					</li>
+					<li class="w55">
+						<img src="images/3.png" alt="">
+					</li>
+					<li class="w55">
+						<img src="images/2.png" alt="">
+					</li>
+					<li class="w55">
+						<img src="images/143414t2ibfif9l6wari1n.png" alt="">
+					</li>
+					<li class="w55">
+						<img src="images/143622ydjcrbp5etvvdqi3.png" alt="">
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/p-1_19.jpg" alt="">
+						</a>
+					</li>
+				</ul>
+				<ul class="detail">
+					<li class="w70">代码辅助</li>
+					<li>正则调试</li>
+					<li>JS&CSS压缩</li>
+					<li>JSON格式化</li>
+					<li class="w70">对照表</li>
+					<li>HTTP状态码</li>
+					<li>HTML5/CSS3支持情况</li>
+					<li class="w70">字体图标</li>
+					<li>Icomoon</li>
+					<li>FontAwesome</li>
+					<li>阿里矢量</li>
+					<li class="w70">API手册</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+					<li>jQuery</li>
+					<li class="w70">静态CDN</li>
+					<li>百度静态</li>
+					<li>BootCDN</li>
+					<li>又拍云CDN</li>
+				</ul>
+				<div class="more-tools">更多软件工具</div>
+				<img src="images/1_03_03.jpg" alt="" style="margin: 13px 0;width: 279px">
+			</div>
+			<!-- 等你参与 -->
+			<h3 class="title">等你参与</h3>
+			<div class="join">
+				<!--<div class="first">-->
+					<!--<img src="images/s.jpg" alt="">-->
+					<!--<p>#给1年后的自己立个目标！#</p>-->
+					<!--<button>已有10717人参与</button>-->
+				<!--</div>-->
+
+				<!--<div class="first">-->
+					<!--<img src="images/ss.jpg" alt="">-->
+					<!--<p>#闲聊奥运，我也说说奥运！#</p>-->
+					<!--<button>已有6058人参与</button>-->
+				<!--</div>-->
+
+				<!--<div class="first">-->
+					<!--<img src="images/p-1_38.jpg" alt="">-->
+					<!--<p>#你是怎么跟老板讨价还价的！#</p>-->
+					<!--<button>已有4592人参与</button>-->
+				<!--</div>-->
+
+				<!--<div class="first">-->
+					<!--<img src="images/p-1_41.jpg" alt="">-->
+					<!--<p>#毕业生如何选择自己的方向！#</p>-->
+					<!--<button>已有3580人参与</button>-->
+				<!--</div>-->
+
+				<!--<div class="first">-->
+					<!--<img src="images/p-1_43.jpg" alt="">-->
+					<!--<p>#你所见过的最坑或更坑代码！#</p>-->
+					<!--<button>已有6074人参与</button>-->
+				<!--</div>-->
+			</div>
+			<!-- 精品课程 -->
+			<h3 class="title">精品课程
+				<a href="#">我也要出现在这里</a>
+			</h3>
+			<div class="perfect_course">
+			<!--<div class="excellent-course">-->
+				<!--<img src="images/p-1_48.jpg" alt="">-->
+				<!--<a href="#">JS课程两周成为JS大师</a>-->
+				<!--<p>案例实战为主，案例均出自老师编码经验以及在名企开发 经验，跟着老师总结分析安全，逐步引导并拓展思路，绝不纸上谈兵！</p>-->
+			<!--</div>-->
+			<!--<div class="excellent-course-1">-->
+				<!--<img src="images/p-1_51.jpg" alt="">-->
+				<!--<a href="#">《前端面试秘籍》，秒杀面试！</a>-->
+				<!--<p>课程中95%是名企面试真题剖析，直攻面试题目软肋，剩下5%主要解决非技术性问题，如：简历如何写，学历不够怎么办等！</p>-->
+			<!--</div>-->
+			<!--<div class="excellent-course-1">-->
+				<!--<img src="images/p-1_53.jpg" alt="">-->
+				<!--<a href="#">人人都能成为jQuery大师</a>-->
+				<!--<p>全球排名前10万的站点，超过70%的站点都在使用jQuery，如果再不学习jQuery，你真的要落后啦！</p>-->
+			<!--</div>-->
+			</div>
+			<ul class="promote">
+				<li>【推广】前端入门课程，3天快速入门</li>
+				<li>【课程】xHTML+CSS页面布局视频全集</li>
+				<li>【实战】JavaScript特效实战，脚本高手的炼成！</li>
+				<li>【简历】教你写一份成功率99%的“专业简历”</li>
+			</ul>
+		</div>
+		<!--模态登录对话框-->
+		<div class="modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<p class="close">&times;</p>
+					<h4>用户登录</h4>
+					<p class="alert">
+						请在此处输入您的注册信息。
+					</p>
+					<form id="login-form">
+						<input type="text" placeholder="请输入登录用户名" name="uname" value="qiangdong">
+						<input type="password" placeholder="请输入登录密码" name="upwd" value="123456">
+						<input type="button" value="提交登录信息" id="bt-login">
+						<a href="">关闭</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer"></footer>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/web.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/login.js"></script>
+	<script>
+//		$('#top').on('click','#bt-login a',function(){
+//			$('.modal').setAttribute('display','block').fadeIn(500);
+//		});
+		$('#bt-login').click(function() {
+			$('.modal').fadeIn(500);
+		});
+	</script>
+	<script>	
+	</script>
+</body>
+</html>

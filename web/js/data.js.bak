@@ -1,0 +1,23 @@
+/*功能点：异步请求当前登录用户的购物车内容*/
+$(function(){
+	$.ajax
+	({	url:'php/web.php',
+		success:function(List){
+			//遍历购物车详情列表，拼接HTML片段
+			var html='';
+			$.each(List,function(i,d){
+				html +=`
+						<li>${d.title}</li>`;		
+			});
+			$('#nav div.list ul.details').html(html);
+			var html='';
+			$.each(List,function(i,d){
+				html +=`
+						<li>${d.title}/li>
+						`;
+				`;
+			});
+			$('#nav div.list ul.details-1').html(html);
+		}
+	});
+});

@@ -1,0 +1,25 @@
+set names utf8;
+drop database if exists web;
+create database web charset=utf8;
+use web;
+
+create table nav_left(
+	id int primary key auto_increment,
+	title varchar(30),
+);
+insert into nav_left values(null,'HTML/CSS');
+insert into nav_left values(null,'JavaScript');
+insert into nav_left values(null,'Node.js');
+insert into nav_left values(null,'手机移动');
+insert into nav_left values(null,'前端安全');
+insert into nav_left values(null,'性能优化');
+insert into nav_left values(null,'类库框架');
+insert into nav_left values(null,'开发调试');
+insert into nav_left values(null,'浏览器');
+insert into nav_left values(null,'面试经验');
+insert into nav_left values(null,'web前端');
+insert into nav_left values(null,'web前端开发');
+
+
+
+select * from nav_left;
